@@ -46,10 +46,11 @@ button:focus {
 .main {
   display: flex;
   flex-direction: column;
-  margin-top:auto;
+  /* margin-top:auto; */
+  padding:1%;
   flex-grow: 1;
   overflow: auto;
-  background: white;
+  background:#81cbd6;
 }
 
 .main::-webkit-scrollbar {
@@ -87,8 +88,8 @@ header {
   flex-grow: 1;
   box-sizing: border-box;
   padding: 10px 6px;
-  background: transparent;
-  border: 1px solid #aaa;
+  background: #d0edf5;
+  border: 1px solid rgb(62, 57, 57);
   width: 100%;
   font-size: 1em;
   margin-right: 16px;
@@ -141,32 +142,42 @@ header {
   display: flex;
   flex-direction: column;
   height: 100%;
-
+  width:50%;
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin:auto;
+  margin-bottom: 0%;
+  border-radius: 3%;
+  background-color: black;
   justify-content: center;
   align-items: center;
 }
 
 .login-form > div {
   margin: 8px;
+  background-color: black;
+  /* margin-bottom: 20%; */
 }
 
 .login-form > div > label {
   font-weight: bold;
 }
 
-.login-form > div  > input {
+.input {
   flex-grow: 1;
   box-sizing: border-box;
   padding: 10px 6px;
-  background: transparent;
+  background: white;
   border: 1px solid #aaa;
-  width: 100%;
+  border-radius: 1%;
+  width: 30vw;
+  height:15px;
   font-size: 1em;
-  margin-right: 16px;
+  margin: 2px;
   margin-top: 4px;
 }
 
-.login-form > div > input:focus {
+.input:focus {
   outline: 0;
 }
 
@@ -187,5 +198,6 @@ header {
 
 }
 .main_cont{
-  margin-top: 200px;
+  margin-top: 10%;
+  height:25vh;
 }

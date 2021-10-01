@@ -53,7 +53,7 @@ return (
     <header>
       <div className="app-bar">
         <div className="app-header">
-          <h1>Hey.. this is Meteor!</h1>
+          <h1>Hey.. this is Meteor's Todo App!</h1>
         </div>
       </div>
     </header>
